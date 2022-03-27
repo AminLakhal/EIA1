@@ -31,7 +31,8 @@ a {
 }
 
 .aBox:hover {
-    width: 55%;
+    width: 52%;
+    background: #3b3b3b;
 }
 
 .imgcontainer {
