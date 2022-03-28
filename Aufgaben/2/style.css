@@ -3,3 +3,8 @@ body {
     font-size: large;
     background: #111111;
 }
+
+nav {
+    z-index: 1;
+    color: red;
+}
