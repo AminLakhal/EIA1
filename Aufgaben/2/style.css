@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: large;
     background: #111111;
+    text-align: center;
 }
 
 header {
@@ -46,3 +47,15 @@ p {
 }
 
 #port_active {}
+
+.imagecontainer {display: flex;
+    align-items: center;
+}
+
+.videocontainer {
+    align-items: center;
+}
+
+p{text-align: center;}
+
+p a{color: red;}
