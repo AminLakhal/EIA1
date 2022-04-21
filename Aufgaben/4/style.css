@@ -48,7 +48,7 @@ p {
 
 #port_active {}
 
-.imagecontainer {
+.imagecontainer {display: flex;
     align-items: center;
 }
 
