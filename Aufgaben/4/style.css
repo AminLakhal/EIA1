@@ -89,14 +89,20 @@ div h2 {
     padding: px 20%;
 }
 
-.footer-div {
-background-color: #080808;
-width: 100vw;
- position: relative;
- margin-left: -50vw;
- height: 100px;
- margin-top: 100px;
- left: 50%;
+footer {
+    background-color: #080808;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 100px;
+    left: 50%;
+}
+
+#footercontent {
+    padding-top: 20px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer ul {
@@ -107,28 +113,85 @@ footer ul {
 
 .footer-nav {
     list-style: none;
-    
     display: flex;
     flex-flow: row wrap;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer-navChild {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 0px 0px 0px;
 }
 
 .footer-nav li {
-    display: inline-block;
     padding: 0px;
     padding-left: 0;
-    padding-right: 30px;
+}
 
+
+.footer-nav li:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #adresse {
     list-style: none;
     text-align: left;
     padding: 0px;
-    padding-top: 50px;
+    padding-top: 10px;
     font-size: medium;
 
 
 }
 
-#adresse li{
-    padding-bottom: 5px;}
+
+#adresse li {
+    padding-bottom: 5px;
+}
+
+.c-content {
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    left: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(160, 0, 0);
+  }
