@@ -3,13 +3,20 @@ body {
     font-size: large;
     background: #111111;
     text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 0%;
+}
+
+.logo {
+    width: 8%;
 }
 
 a {
@@ -22,40 +29,106 @@ p {
     color: white;
 }
 
+nav ul {
+    padding: 0;
+}
+
 .nav-links {
     list-style: none;
 }
 
 .nav-links li {
+    text-align: left;
     display: inline-block;
-    padding: 0px 30px;
-}
-
-.nav-links a {
-    transition: all 0.3 ease 0s;
+    padding: 0px;
+    padding-left: 0;
+    padding-right: 30px;
 }
 
 .nav-links li a:hover {
     color: rgb(83, 83, 83);
 }
 
-#logofiller {
-    background-color: rgb(83, 83, 83);
-    padding: 10px 25px;
-    border: none;
-    border-radius: 50px;
+
+.active {
+    color: red;
 }
 
-#port_active {}
-
-.imagecontainer {display: flex;
+.imagecontainer {
+    position: relative;
     align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .videocontainer {
+    position: relative;
     align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
-p{text-align: center;}
+.contentcontainer {
+    position: relative;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
 
-p a{color: red;}
+p {
+    text-align: center;
+}
+
+p a {
+    color: red;
+}
+
+div h2 {
+    color: white;
+    text-align: left;
+    padding: px 20%;
+}
+
+.footer-div {
+background-color: #080808;
+width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+ height: 100px;
+ margin-top: 100px;
+ left: 50%;
+}
+
+footer ul {
+    padding-top: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav {
+    list-style: none;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding: 0px;
+    padding-left: 0;
+    padding-right: 30px;
+
+}
+
+#adresse {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    padding-top: 50px;
+    font-size: medium;
+
+
+}
+
+#adresse li{
+    padding-bottom: 5px;}
