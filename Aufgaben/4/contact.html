@@ -23,7 +23,7 @@
         </nav>
         <img src="../Assets/Icons/logo.svg" alt="logo" class="logo">
     </header>
-    <div class="c-content">
+    <div class="c-content" >
         <div class="contact-content">
 
             <h3>Contact</h3>
@@ -35,44 +35,58 @@
                 <li>Telefon: 0123 4567890</li>
                 <li>max@mustermann.de</li>
             </ul>
-        
 
 
-        <div class="contact-container">
-            <form action="action_page.php">
 
-                <input type="text" id="fname" name="name" placeholder="Your name..">
-                <input type="text" id="lname" name="email" placeholder="Your email">
+            <div class="contact-container">
+                <form action="action_page.php">
 
-                <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
+                    <input type="text" id="fname" name="name" placeholder="Your name..">
+                    <input type="text" id="lname" name="email" placeholder="Your email">
 
-                <input type="submit" value="Send">
+                    <textarea id="subject" name="subject" placeholder="Your message..." style="height:200px"></textarea>
 
-            </form>
+                    <input type="submit" value="Send">
+
+                </form>
+            </div>
         </div>
-    </div>
     </div>
 
     <footer>
         <div id="footercontent">
-            <ul class="footer-nav">
-                <li>EIA 1</li>
-                <li>Follow Me</li>
-                <ul class="footer-navChild">
-                    <li> Copyright &copy; 2022 EIA 1 <br>All rights reserved</li>
-                </ul>
-            </ul>
+            <div class="footer">
+                <div class="box1">
+                    <p>EIA 1</p>
+                </div>
+                <div class="box2">
+                    <p>Follow Me</p>
+                    <div>
+                        <a href="https://www.instagram.com/"><img class="footerlogos"
+                                src="../Assets/Icons/icon_insta.svg" alt="Instagram"></a>
+                        <a href="https://www.linkedin.com/"><img class="footerlogos"
+                                src="../Assets/Icons/icon_linkedin.svg" alt="Instagram"></a>
+                        <a href="https://www.youtube.com/"><img class="footerlogos"
+                                src="../Assets/Icons/icon_youtube.svg" alt="Instagram"></a>
 
-            <ul id="adresse">
-                <li></li>
-                <li>Musterstrasse 1</li>
-                <li>12345 Musterstadt</li>
-                <li>Telefon: 0123 4567890</li>
-                <li>max@mustermann.de</li>
-            </ul>
+                    </div>
+
+                </div>
+                <div class="box3">
+                    <p>Copyright &copy; 2022 EIA 1 <br>All rights reserved</p>
+                </div>
+
+
+                <ul id="adresse">
+                    <li></li>
+                    <li>Musterstrasse 1</li>
+                    <li>12345 Musterstadt</li>
+                    <li>Telefon: 0123 4567890</li>
+                    <li>max@mustermann.de</li>
+                </ul>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>

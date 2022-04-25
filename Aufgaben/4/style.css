@@ -55,21 +55,38 @@ nav ul {
 }
 
 .imagecontainer {
-    position: relative;
     align-items: center;
     padding-top: 3em;
     padding-bottom: 3em;
 }
 
+img {
+    padding-bottom: 20px;
+    opacity: 1;
+}
+
+.parent:hover > img {
+    opacity: 0.75;
+    filter: blur(2px);
+  }
+
+  .parent:hover > img:hover {
+    opacity: 1.0;
+    filter: blur(0px);
+  }
+
+
 .videocontainer {
-    position: relative;
     align-items: center;
     padding-top: 3em;
     padding-bottom: 3em;
+}
+
+video {
+    padding-bottom: 20px;
 }
 
 .contentcontainer {
-    position: relative;
     align-items: center;
     padding-top: 3em;
     padding-bottom: 3em;
@@ -98,6 +115,23 @@ footer {
     left: 50%;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box1 {
+    justify-self: left;
+}
+
+.box2 {
+    justify-self: center;
+}
+
+.box3 {
+    justify-self: right;
+}
+
 #footercontent {
     padding-top: 20px;
     width: 800px;
@@ -111,41 +145,25 @@ footer ul {
     color: white;
 }
 
-.footer-nav {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0px 0px 0px 0px;
+.footerlogos {
+    filter: invert();
+    width: 30px;
+    opacity: 50%;
 }
 
-.footer-navChild {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0px 0px 0px 0px;
+.footerlogos:hover {
+    opacity: 100%;
 }
 
-.footer-nav li {
-    padding: 0px;
-    padding-left: 0;
-}
-
-
-.footer-nav li:nth-child(2) {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #adresse {
     list-style: none;
     text-align: left;
     padding: 0px;
-    padding-top: 10px;
     font-size: medium;
-
+    margin-top: -30px;
 
 }
-
 
 #adresse li {
     padding-bottom: 5px;
@@ -169,29 +187,29 @@ footer ul {
     margin-right: auto;
 }
 
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
 
 
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  
-  input[type=submit] {
+input[type=submit] {
     background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: rgb(160, 0, 0);
-  }
+}

@@ -15,7 +15,7 @@
     <header>
         <nav>
             <ul class="nav-links">
-                <li><a class="active" href="">Portfolio </a></li>
+                <li><a class="active" href="">Portfolio</a></li>
                 <li><a href="../4/aboutme.html">About me</a></li>
                 <li><a href="../4/contact.html">Contact</a></li>
 
@@ -24,37 +24,37 @@
 
     </header>
 
-    <div class="imagecontainer">
+    <div class="imagecontainer" >
 
-        <h2>Fotos</h2>
+        <h2 class="imageHL">Images</h2>
 
-        <a href="../2/foto1.html"></a>
-        <img src="../Assets/Bilder/foto1.jpg" alt="">
-        <img src="../Assets/Bilder/foto2.jpg" alt="">
-        <img src="../Assets/Bilder/foto3.jpg" alt="">
-        <img src="../Assets/Bilder/foto4.jpg" alt="">
-
+        <section class="parent">
+        <img src="../Assets/Bilder/foto1.jpg" data-tilt data-tilt-scale="1.1" alt="">
+        <img src="../Assets/Bilder/foto2.jpg" data-tilt data-tilt-scale="1.1" alt="">
+        <img src="../Assets/Bilder/foto3.jpg" data-tilt data-tilt-scale="1.1" alt="">
+        <img src="../Assets/Bilder/foto4.jpg" data-tilt data-tilt-scale="1.1" alt="">
+        </section>
     </div>
     <div class="videocontainer">
 
-        <h2>Illustrationen</h2>
+        <h2>Illustrations</h2>
 
-        <video autoplay muted loop>
+        <video autoplay muted loop data-tilt data-tilt-scale="1.1">
             <source src="../Assets/Videos/Animation/clip1.mp4" type="video/mp4">
             <source src="../Assets/Videos/Animation/L02_task_material_animation_clip1.ogg" type="video/ogg">
         </video>
 
-        <video autoplay muted loop>
+        <video autoplay muted loop data-tilt data-tilt-scale="1.1">
             <source src="../Assets/Videos/Animation/clip2.mp4" type="video/mp4">
             <source src="../Assets/Videos/Animation/L02_task_material_animation_clip2.ogg" type="video/ogg">
         </video>
 
-        <video autoplay muted loop>
+        <video autoplay muted loop data-tilt data-tilt-scale="1.1">
             <source src="../Assets/Videos/Animation/clip3.mp4" type="video/mp4">
             <source src="../Assets/Videos/Animation/L02_task_material_animation_clip3.ogg" type="video/ogg">
         </video>
 
-        <video autoplay muted loop>
+        <video autoplay muted loop data-tilt data-tilt data-tilt-scale="1.1">
             <source src="../Assets/Videos/Animation/clip4.mp4" type="video/mp4">
             <source src="../Assets/Videos/Animation/L02_task_material_animation_clip4.ogg" type="video/ogg">
         </video>
@@ -66,23 +66,39 @@
 
     <footer>
         <div id="footercontent">
-            <ul class="footer-nav">
-                <li>EIA 1</li>
-                <li>Follow Me</li>
-                <ul class="footer-navChild">
-                    <li> Copyright &copy; 2022 EIA 1 <br>All rights reserved</li>
-                </ul>
-            </ul>
+            <div class="footer">
+                <div class="box1">
+                    <p>EIA 1</p>
+                </div>
+                <div class="box2">
+                    <p>Follow Me</p>
+                    <div>
+                        <a href="https://www.instagram.com/"><img class="footerlogos"
+                                src="../Assets/Icons/icon_insta.svg" alt="Instagram"></a>
+                        <a href="https://www.linkedin.com/"><img class="footerlogos"
+                                src="../Assets/Icons/icon_linkedin.svg" alt="Instagram"></a>
+                        <a href="https://www.youtube.com/"><img class="footerlogos"
+                                src="../Assets/Icons/icon_youtube.svg" alt="Instagram"></a>
 
-            <ul id="adresse">
-                <li></li>
-                <li>Musterstrasse 1</li>
-                <li>12345 Musterstadt</li>
-                <li>Telefon: 0123 4567890</li>
-                <li>max@mustermann.de</li>
-            </ul>
+                    </div>
+
+                </div>
+                <div class="box3">
+                    <p>Copyright &copy; 2022 EIA 1 <br>All rights reserved</p>
+                </div>
+
+
+                <ul id="adresse">
+                    <li></li>
+                    <li>Musterstrasse 1</li>
+                    <li>12345 Musterstadt</li>
+                    <li>Telefon: 0123 4567890</li>
+                    <li>max@mustermann.de</li>
+                </ul>
+            </div>
         </div>
     </footer>
+    <script type="text/javascript" src="../4/vanilla-tilt.js"></script>
 </body>
 
 </html>
