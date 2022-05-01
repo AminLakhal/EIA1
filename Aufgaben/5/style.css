@@ -30,7 +30,6 @@ header {
     left: 50%;
     filter: blur(4px);
 
-    transition: 10s;
     animation-name: fade;
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in-out;
