@@ -17,7 +17,7 @@ header {
 
 
 .background {
-    background-image: url("../Assets/Bilder/Hintergrund3.jpg");
+    background-image: url("../Assets/Bilder/Hintergrund.jpg");
     background-size: 125%;
     background-repeat: no-repeat;
     height: 600px;
@@ -38,17 +38,25 @@ header {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
-
+ 
 @keyframes fade {
     0% {
         background-image: url("../Assets/Bilder/Hintergrund.jpg")
     }
 
-    33% {
+    20% {
         background-image: url("../Assets/Bilder/Hintergrund2.jpg")
     }
 
-    66% {
+    40% {
+        background-image: url("../Assets/Bilder/Hintergrund2.jpg")
+    }
+
+    60% {
+        background-image: url("../Assets/Bilder/Hintergrund3.jpg")
+    }
+
+    80% {
         background-image: url("../Assets/Bilder/Hintergrund3.jpg")
     }
 
