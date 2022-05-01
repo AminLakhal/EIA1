@@ -31,6 +31,7 @@ header {
     filter: blur(4px);
 
     animation-name: fade;
+    animation-delay: 5s;
     animation-direction: alternate-reverse;
     animation-play-state: running;
     animation-timing-function: ease-in-out;
@@ -41,7 +42,7 @@ header {
  
 @keyframes fade {
     0% {
-        background-image: url("../Assets/Bilder/Hintergrund.jpg")
+        background-image: url("../Assets/Bilder/Hintergrund2.jpg")
     }
 
     20% {
