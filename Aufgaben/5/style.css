@@ -35,7 +35,7 @@ header {
     animation-duration: 60s;
     animation-iteration-count: infinite;
 }
- 
+
 @keyframes fade {
     0% {
         background-image: url("../Assets/Bilder/Hintergrund.jpg")
