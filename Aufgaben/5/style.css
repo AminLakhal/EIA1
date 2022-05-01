@@ -15,8 +15,9 @@ header {
     padding: 30px 0%;
 }
 
-.background{
-    background-image: url("../Assets/Bilder/Hintergrund.jpg");
+
+.background {
+    background-image: url("../Assets/Bilder/Hintergrund3.jpg");
     background-size: 125%;
     background-repeat: no-repeat;
     height: 600px;
@@ -27,7 +28,34 @@ header {
     margin-top: -125px;
     margin-left: -50vw;
     left: 50%;
-filter: blur(4px);}
+    filter: blur(4px);
+
+    animation-name: fade;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0% {
+        background-image: url("../Assets/Bilder/Hintergrund.jpg")
+    }
+
+    33% {
+        background-image: url("../Assets/Bilder/Hintergrund2.jpg")
+    }
+
+    66% {
+        background-image: url("../Assets/Bilder/Hintergrund3.jpg")
+    }
+
+    100% {
+        background-image: url("../Assets/Bilder/Hintergrund.jpg")
+    }
+}
 
 .logo {
     width: 8%;
@@ -106,7 +134,9 @@ video {
     padding-bottom: 3em;
 }
 
-.contentcontainer div p{color: black;}
+.contentcontainer div p {
+    color: black;
+}
 
 .contentcontainer div {}
 
