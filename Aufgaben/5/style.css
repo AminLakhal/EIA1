@@ -30,37 +30,29 @@ header {
     left: 50%;
     filter: blur(4px);
 
+    transition: 10s;
     animation-name: fade;
-    animation-delay: 5s;
-    animation-duration: 60s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fade {
     0% {
-        background-image: url("../Assets/Bilder/Hintergrund.jpg")
+        background-image: url("../Assets/Bilder/Hintergrund.jpg");
     }
+  
+    50% {
+        background-image: url("../Assets/Bilder/Hintergrund2.jpg");
+    }
+  
 
-    20% {
-        background-image: url("../Assets/Bilder/Hintergrund2.jpg")
-    }
-
-    40% {
-        background-image: url("../Assets/Bilder/Hintergrund2.jpg")
-    }
-
-    60% {
-        background-image: url("../Assets/Bilder/Hintergrund3.jpg")
-    }
-
-    80% {
-        background-image: url("../Assets/Bilder/Hintergrund3.jpg")
-    }
-
-    100% {
-        background-image: url("../Assets/Bilder/Hintergrund.jpg")
-    }
-}
+  100% {
+    background-image: url("../Assets/Bilder/Hintergrund.jpg");
+}}
 
 .logo {
     width: 8%;
@@ -143,7 +135,6 @@ video {
     color: black;
 }
 
-.contentcontainer div {}
 
 p {
     text-align: center;
