@@ -32,7 +32,6 @@ header {
 
 
 .background {
-    /*data-tilt data-tilt-full-page-listening data-tilt data-tilt-max="2"*/
     background-image: url("../Assets/Bilder/Hintergrund.jpg");
     background-size: 125%;
     background-repeat: no-repeat;
