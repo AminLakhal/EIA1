@@ -44,10 +44,8 @@ header {
     margin-left: -50vw;
     left: 50%;
     filter: blur(4px);
-    transition: 10s;
+    
     animation-name: fade;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
     animation-delay: 5s;
     animation-duration: 15s;
     animation-iteration-count: infinite;
