@@ -55,16 +55,16 @@ header {
 }
 
 @keyframes fade {
-    0% {
+    0% {background-size: 125%;
         background-image: url("../Assets/Bilder/Hintergrund.jpg");
     }
 
     50% {
-        background-image: url("https://raw.githubusercontent.com/AminLakhal/EIA1/main/Aufgaben/Assets/Bilder/HIntergrund2.jpg");
+        backgrbackground-size: 125%;ound-image: url("https://raw.githubusercontent.com/AminLakhal/EIA1/main/Aufgaben/Assets/Bilder/HIntergrund2.jpg");
     }
 
 
-    100% {
+    100% {background-size: 125%;
         background-image: url("../Assets/Bilder/Hintergrund.jpg");
     }
 }
