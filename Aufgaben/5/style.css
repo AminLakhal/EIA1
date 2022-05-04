@@ -33,7 +33,7 @@ header {
 
 .background {
     background-image: url("../Assets/Bilder/Hintergrund.jpg");
-    background-size: 125%;
+    background-size: 1%;
     background-repeat: no-repeat;
     height: 600px;
     top: 0;
@@ -61,7 +61,7 @@ header {
     }
 
     50% {
-        backgrbackground-size: 125%;ound-image: url("https://raw.githubusercontent.com/AminLakhal/EIA1/main/Aufgaben/Assets/Bilder/HIntergrund2.jpg");
+        background-image: url("https://raw.githubusercontent.com/AminLakhal/EIA1/main/Aufgaben/Assets/Bilder/HIntergrund2.jpg");
         background-size: 125%;
     }
 
