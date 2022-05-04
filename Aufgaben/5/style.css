@@ -33,7 +33,7 @@ header {
 
 .background {
     background-image: url("../Assets/Bilder/Hintergrund.jpg");
-    background-size: 1%;
+    background-size: 125%;
     background-repeat: no-repeat;
     height: 600px;
     top: 0;
@@ -49,7 +49,7 @@ header {
     animation-direction: alternate-reverse;
     animation-timing-function: ease-in-out;
     animation-delay: 5s;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
