@@ -8,16 +8,18 @@ body {
     margin-right: auto;
 }
 .pbanner{
-   position: absolute;
+   position: fixed;
+   z-index: 2;
    width: 300px;
    padding: 0.3rem 90px;
    box-sizing: border-box;
    background-color: red;
    transform: rotateZ(-45deg);
    top:0;
-   left:0;
+   left: 0;
    transform-origin: 150px 150px;
    text-align:center;
+
 }
 
 header {
@@ -57,7 +59,7 @@ header {
     }
   
     50% {
-        background-image: url("../Assets/Bilder/Hintergrund2.jpg");
+        background-image: url("https://raw.githubusercontent.com/AminLakhal/EIA1/main/Aufgaben/Assets/Bilder/HIntergrund2.jpg");
     }
   
 
