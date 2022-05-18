@@ -34,7 +34,7 @@ var a07;
         document.querySelector("section:nth-child(5) h2+p").innerHTML = "Wachstumsrate seit 2008 in der EU";
         document.querySelector("section:nth-child(6) h2").innerHTML = JSON.stringify((arr[0].iNutzer20 / 1000000 - iNutzer08[0] / 1000000).toFixed(2)) + " Mio";
         document.querySelector("section:nth-child(6) h2+p").innerHTML = "Wachstumsrate gesamt zwischen 2008 and 2022 in der EU";
-        document.querySelector(".chart").setAttribute("style", "height:" + arr[0].iNutzer22 * 100 / euiNutzerzahl2020 / 140 * 100 + "%");
+        document.querySelector(".chart").setAttribute("style", "height:" + (arr[0].iNutzer22 * 100 / euiNutzerzahl2020).toFixed(2) + "%");
     }
     function france() {
         document.querySelector("h1").innerHTML = "Internetnutzung in Frankreich";
@@ -46,7 +46,7 @@ var a07;
         document.querySelector("section:nth-child(5) h2+p").innerHTML = "Wachstumsrate seit 2008 in der EU";
         document.querySelector("section:nth-child(6) h2").innerHTML = JSON.stringify((arr[1].iNutzer20 / 1000000 - iNutzer08[1] / 1000000).toFixed(2)) + " Mio";
         document.querySelector("section:nth-child(6) h2+p").innerHTML = "Wachstumsrate gesamt zwischen 2008 and 2022 in der EU";
-        document.querySelector(".chart").setAttribute("style", "height:" + arr[1].iNutzer22 * 100 / euiNutzerzahl2020 / 140 * 100 + "%");
+        document.querySelector(".chart").setAttribute("style", "height:" + (arr[1].iNutzer22 * 100 / euiNutzerzahl2020).toFixed(2) + "%");
     }
     function italy() {
         document.querySelector("h1").innerHTML = "Internetnutzung in Italien";
@@ -58,7 +58,7 @@ var a07;
         document.querySelector("section:nth-child(5) h2+p").innerHTML = "Wachstumsrate seit 2008 in der EU";
         document.querySelector("section:nth-child(6) h2").innerHTML = JSON.stringify((arr[2].iNutzer20 / 1000000 - iNutzer08[2] / 1000000).toFixed(2)) + " Mio";
         document.querySelector("section:nth-child(6) h2+p").innerHTML = "Wachstumsrate gesamt zwischen 2008 and 2022 in der EU";
-        document.querySelector(".chart").setAttribute("style", "height:" + arr[2].iNutzer22 * 100 / euiNutzerzahl2020 / 140 * 100 + "%");
+        document.querySelector(".chart").setAttribute("style", "height:" + (arr[2].iNutzer22 * 100 / euiNutzerzahl2020).toFixed(2) + "%");
     }
     function bulgaria() {
         document.querySelector("h1").innerHTML = "Internetnutzung in Bulgarien";
@@ -70,7 +70,7 @@ var a07;
         document.querySelector("section:nth-child(5) h2+p").innerHTML = "Wachstumsrate seit 2008 in der EU";
         document.querySelector("section:nth-child(6) h2").innerHTML = JSON.stringify((arr[3].iNutzer20 / 1000000 - iNutzer08[3] / 1000000).toFixed(2)) + " Mio";
         document.querySelector("section:nth-child(6) h2+p").innerHTML = "Wachstumsrate gesamt zwischen 2008 and 2022 in der EU";
-        document.querySelector(".chart").setAttribute("style", "height:" + arr[3].iNutzer22 * 100 / euiNutzerzahl2020 / 140 * 100 + "%");
+        document.querySelector(".chart").setAttribute("style", "height:" + (arr[3].iNutzer22 * 100 / euiNutzerzahl2020).toFixed(2) + "%");
     }
     function stars() {
         document.querySelector("h1").innerHTML = "Internetnutzung in der Europäischen Union";
