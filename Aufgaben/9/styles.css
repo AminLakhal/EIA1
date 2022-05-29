@@ -1,0 +1,87 @@
+    @import "https://fonts.googleapis.com/css?family=Oswald";
+    html,
+    body {
+        background: linear-gradient(to bottom, #858585, #000000);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Oswald", sans-serif;
+    }
+    
+    h1 {
+        color: #fff;
+        font-size: 5vw;
+        letter-spacing: 6px;
+        text-shadow: 10px 10px 20px#000000;
+        margin-bottom: 0;
+    }
+    
+    .container,
+    .container2 {
+        width: 500px;
+        height: 650px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding-top: 50px;
+    }
+    
+    .container div {
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+    }
+    
+    #playBtn,
+    #shuffleBtn {
+        color: #ffffff;
+        font-size: 75px;
+    }
+    
+    .pad {
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px;
+    }
+    
+    .pad:hover,
+    .play:hover,
+    #playBtn:hover,
+    #shuffleBtn:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    .pad:active,
+    .play:active,
+    #playBtn:active,
+    #shuffleBtn:active {
+        transform: scale(1.1);
+        transition: all .2s;
+    }
+    
+    .pad:nth-child(1),
+    .pad:nth-child(2),
+    .pad:nth-child(3) {
+        background-color: #2e7be3;
+    }
+    
+    .pad:nth-child(4),
+    .pad:nth-child(5),
+    .pad:nth-child(6),
+    .pad:nth-child(7) {
+        background-color: #fa3fa0;
+    }
+    
+    .pad:nth-child(8),
+    .pad:nth-child(9) {
+        background-color: #d77b16;
+    }
+    
+    .play {
+        cursor: pointer;
+    }
