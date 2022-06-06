@@ -1,0 +1,108 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+html,
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.delete {
+    width: 50px;
+}
+
+#delBtn {
+    padding: 50%;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+
+.delBtn {
+    padding: 50%;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}
+
+.fa-circle-notch {
+    font-size: 20px;
+}
+
+.fa-circle-notch {
+    position: relative;
+}
+
+.check {
+    top: 0;
+    padding-top: 16px;
+    padding-left: 9px;
+    position: absolute;
+    opacity: 0;
+}
+
+#check {
+    z-index: 9;
+}
+
+.fa-trash:hover {
+    transform: scale(1.1);
+}
+
+.fa-trash:active {
+    transform: scale(1.2);
+    transition: all .2s;
+}
+
+.fa-circle-notch,
+#check {
+    cursor: pointer;
+}
+
+.text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.delAppend {
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    padding: 0 0 0 0;
+}
