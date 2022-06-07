@@ -2,6 +2,8 @@ var task: HTMLInputElement = <HTMLInputElement>document.getElementById("addTask"
 let display: HTMLElement = <HTMLElement>document.querySelector(".display");
 let k: number;
 let listLength: number = display.childElementCount;
+
+const artyom = new Artyom();
 window.addEventListener("load", function (): void {
 
     // tslint:disable-next-line: typedef
@@ -84,6 +86,7 @@ function mybuttonHandler() {
 
 
 function checkEvent(): void {
+    artyom.say("And this after the previous spoken text.");
 
     if (document.getElementById(JSON.stringify(k)).style.borderColor == "black") {
 
@@ -94,6 +97,7 @@ function checkEvent(): void {
         document.getElementById(JSON.stringify(k)).style.borderColor = "black";
     }
 
+   
 
 }
 
@@ -106,3 +110,29 @@ function deleteEvent(parentElement: HTMLElement): void {
 
 }
 
+
+
+
+var UserDictation = artyom.newDictation({
+    continuous:true, // Enable continuous if HTTPS connection
+    onResult:function(text){
+        // Do something with the text
+        console.log(text);
+    },
+    onStart:function(){
+        console.log("Dictation started by the user");
+    },
+    onEnd:function(){
+        alert("Dictation stopped by the user");
+    }
+});
+
+UserDictation.start();
+
+let test:string = UserDictation;
+console.log(test)
+
+
+
+// Stop whenever you want
+// UserDictation.stop();
