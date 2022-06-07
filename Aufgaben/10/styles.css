@@ -18,13 +18,13 @@ textarea {
     padding: 12px;
     border: none;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 
 .input {
     width: 50%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -58,36 +58,27 @@ textarea {
     font-size: 20px;
 }
 
-.fa-circle-notch {
-    font-size: 20px;
-}
-
-.fa-circle-notch {
+.fa-check {
+    padding-top: 2px;
     position: relative;
-}
-
-.check {
-    top: 0;
-    padding-top: 16px;
-    padding-left: 9px;
-    position: absolute;
-    opacity: 0;
+    font-size: 20px;
 }
 
 #check {
     z-index: 9;
 }
 
+.fa-check:hover,
 .fa-trash:hover {
     transform: scale(1.1);
 }
 
+.fa-check:active,
 .fa-trash:active {
     transform: scale(1.2);
     transition: all .2s;
 }
 
-.fa-circle-notch,
 #check {
     cursor: pointer;
 }
